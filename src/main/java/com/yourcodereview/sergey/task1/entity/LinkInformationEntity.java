@@ -10,11 +10,9 @@ import javax.persistence.Id;
 public class LinkInformationEntity {
 
     @Id
-    String shortLink;
-
-    String longLink;
-
-    int count;
+    private String shortLink;
+    private String longLink;
+    private int count;
 
     public LinkInformationEntity(String shortLink, String longLink, int count) {
         this.shortLink = shortLink;

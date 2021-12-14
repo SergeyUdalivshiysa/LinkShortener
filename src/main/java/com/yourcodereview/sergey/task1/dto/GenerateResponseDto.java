@@ -6,7 +6,7 @@ import lombok.Data;
 @JsonSerialize
 @Data
 public class GenerateResponseDto {
-    String link;
+    private String link;
 
     public GenerateResponseDto(String link) {
         this.link = link;
